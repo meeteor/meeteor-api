@@ -46,7 +46,7 @@ Sample endpoint:
 
 `https://api.meeteor.com/v1/users?AUTH_TOKEN=2opi3hsadfkh23p4oi234asfd`
 
-```json
+```
 {
   ID: 123,
   location: “New York”,
@@ -87,7 +87,7 @@ Sample endpoint:
 
 `https://api.meeteor.com/v1/users/123?AUTH_TOKEN=2opi3hsadfkh23p4oi234asfd`
 
-```json
+```
 {
   skills: [“Ruby”, “PHP”, “MySQL”]
 }
@@ -116,7 +116,7 @@ Sample endpoint:
 
 `https://api.meeteor.com/v1/users/123/matches?AUTH_TOKEN=2opi3hsadfkh23p4oi234asfd`
 
-```json
+```
 {
   user_id: 123
   matches: [
