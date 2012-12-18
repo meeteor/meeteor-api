@@ -77,7 +77,6 @@ Sample endpoint:
 
 ```
 This will return `201 Created`, with the current JSON representation of the user if the creation was a success. If the application does not have access to create new users, you'll see `403 Forbidden`.
-```
 
 Update user
 -----------
@@ -133,3 +132,4 @@ Sample endpoint:
 }
 ```
 
+This will return the JSON representation of the matches shown above. If the application does not have access to update the user, you'll see `403 Forbidden`.
